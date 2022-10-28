@@ -10,7 +10,17 @@ body {
   background-position: left top;
   font-family: "Zilla Slab", serif;
 }
-
+.menu {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  cursor: pointer;
+}
+.menu a {
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
 .box-container {
   width: 70%;
   margin: 0 auto;

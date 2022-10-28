@@ -1,0 +1,22 @@
+body {
+  background-image: url("./bg.png");
+  background-size: cover;
+  background-position: left top;
+  font-family: "Zilla Slab", serif;
+  color: white;
+}
+
+.questions {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  align-items: center;
+  grid-gap: 20px;
+}
+.question {
+  margin: auto;
+  text-align: center;
+  background: black;
+  padding: 30px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 10px;
+}
